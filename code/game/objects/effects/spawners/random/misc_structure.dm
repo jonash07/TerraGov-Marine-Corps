@@ -238,8 +238,8 @@
 		/obj/item/frame/table/mainship/nometal = 10,
 		/obj/item/frame/table/reinforced = 10,
 		/obj/item/frame/table/wood = 5,
-		/obj/item/frame/table/fancywood = 5,
-		/obj/item/frame/table/rusticwood = 5,
+		/obj/item/frame/table/wood/fancy = 5,
+		/obj/item/frame/table/wood/rustic = 5,
 		/obj/item/frame/table/gambling = 1,
 	)
 

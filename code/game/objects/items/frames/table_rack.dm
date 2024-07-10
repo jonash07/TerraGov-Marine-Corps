@@ -1,6 +1,3 @@
-
-
-
 /*
 * Table Parts
 */
@@ -118,11 +115,17 @@
 		new /obj/item/frame/table/gambling(get_turf(src))
 		qdel(src)
 
-/obj/item/frame/table/fancywood
+/obj/item/frame/table/wood/fancy
+	name = "fancy wooden table parts"
+	desc = "A kit for a fancy table, including a large, flat wooden surface and four legs. Some assembly required."
 	icon_state = "fwood_tableparts"
+	table_type = /obj/structure/table/wood/fancy
 
-/obj/item/frame/table/rusticwood
+/obj/item/frame/table/wood/rustic
+	name = "rustic wooden table parts"
+	desc = "A kit for a rustic table, including a large, flat wooden surface and four legs. Some assembly required."
 	icon_state = "pwood_tableparts"
+	table_type = /obj/structure/table/wood/rustic
 
 /*
 * Gambling Table Parts
@@ -146,11 +149,6 @@
 		new /obj/item/stack/tile/carpet(loc)
 		new /obj/item/frame/table/wood(loc)
 		qdel(src)
-
-
-
-
-
 
 /*
 * Rack Parts

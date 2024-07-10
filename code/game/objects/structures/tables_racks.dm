@@ -352,7 +352,7 @@
 	icon_state = "fancy_table-0"
 	base_icon_state = "fancy_table"
 	table_prefix = "fwood"
-	parts = /obj/item/frame/table/fancywood
+	parts = /obj/item/frame/table/wood/fancy
 
 /obj/structure/table/wood/rustic
 	name = "rustic wooden table"
@@ -361,7 +361,7 @@
 	icon_state = "rustic_table-0"
 	base_icon_state = "rustic_table"
 	table_prefix = "pwood"
-	parts = /obj/item/frame/table/rusticwood
+	parts = /obj/item/frame/table/wood/rustic
 
 /obj/structure/table/wood/gambling
 	name = "gambling table"
